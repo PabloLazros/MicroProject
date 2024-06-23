@@ -169,8 +169,8 @@ void rgb_led_control(int bpm) {
         // Red color
         PORTCbits.RC5 = 1; // Red on
         PORTCbits.RC6 = 0; // Green off
-        PORTCbits.RC7 = 0; // Blue off
-    }
+        PORTCbits.RC7 = 0; // BlueÂ off
+Â Â Â Â }
 }
 void main() {
     system_init();
