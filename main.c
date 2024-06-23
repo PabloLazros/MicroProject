@@ -287,7 +287,7 @@ void system_init(void) {
     lcd_com(0x01); // Clear the LCD
     __delay_ms(2);
     lcd_com(0x80); // Move to the first line
-    lcd_puts("Wlc to Medifool"); // Display welcome message
+    lcd_puts("Wlc in Medipol"); // Display welcome message
     __delay_ms(2000); // Display the message for 2 seconds
     lcd_com(0x01); // Clear the LCD again
     __delay_ms(2);
